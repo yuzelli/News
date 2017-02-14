@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/bg_article_item"
+    >
+    <ImageView
+       android:id="@+id/img_newPic"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="biaoti"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:lines="1"
+        android:layout_alignTop="@+id/img_newPic"
+        android:layout_toEndOf="@+id/img_newPic"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="11dp" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="biaoti"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/img_newPic"
+        android:layout_toEndOf="@+id/img_newPic" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="biaoti"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_alignBaseline="@+id/tv_author"
+        android:layout_alignBottom="@+id/tv_author"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp" />
+</RelativeLayout>

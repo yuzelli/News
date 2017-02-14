@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:id="@+id/imgR_head"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark" />
+
+    <TextView
+        android:id="@+id/tv_news"
+        style="@style/slidingMenuTextView"
+        android:layout_below="@+id/imgR_head"
+        android:drawableLeft="@drawable/biz_navigation_tab_news"
+        android:background="@drawable/share_little_bg"
+        android:text="新闻资讯"
+        />
+    <TextView
+        android:id="@+id/tv_newCollection"
+        style="@style/slidingMenuTextView"
+        android:layout_below="@+id/tv_news"
+        android:drawableLeft="@drawable/biz_navigation_tab_read"
+        android:background="@drawable/share_little_bg"
+        android:text="新闻收藏"
+        />
+    <TextView
+        android:id="@+id/tv_application"
+        style="@style/slidingMenuTextView"
+        android:layout_below="@+id/tv_newCollection"
+        android:drawableLeft="@drawable/biz_navigation_tab_ties"
+        android:background="@drawable/share_little_bg"
+        android:text="精彩应用"
+        />
+    <TextView
+        android:id="@+id/tv_aboutUs"
+        style="@style/slidingMenuTextView"
+        android:layout_below="@+id/tv_application"
+        android:drawableLeft="@drawable/biz_navigation_tab_local_news"
+        android:background="@drawable/share_little_bg"
+        android:text="关于我们"
+        />
+
+
+</RelativeLayout>
